@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fotosíntesis - Objeto de Aprendizaje</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>La Fotosíntesis</h1>
+    <p>Descubre cómo las plantas convierten la luz solar en energía</p>
+  </header>
+
+  <main>
+    <section id="conceptos">
+      <h2>¿Qué es la Fotosíntesis?</h2>
+      <p>La fotosíntesis es el proceso por el cual las plantas verdes, algas y algunas bacterias transforman la energía solar en energía química. Este proceso ocurre en los cloroplastos y produce oxígeno como subproducto.</p>
+      <ul>
+        <li><strong>Reactivos:</strong> Dióxido de carbono (CO₂), agua (H₂O), y luz solar.</li>
+        <li><strong>Productos:</strong> Glucosa (C₆H₁₂O₆) y oxígeno (O₂).</li>
+        <li><strong>Fórmula general:</strong> 6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂</li>
+      </ul>
+    </section>
+
+    <section id="animacion">
+      <h2>Animación del proceso</h2>
+      <div class="animacion-contenedor">
+        <canvas id="canvasFotosintesis"></canvas>
+      </div>
+    </section>
+
+    <section id="laminas">
+      <h2>Ilustraciones del proceso</h2>
+      <div class="galeria">
+        <img src="img/lamina1.png" alt="Proceso de fotosíntesis 1" />
+        <img src="img/lamina2.png" alt="Proceso de fotosíntesis 2" />
+      </div>
+    </section>
+
+    <section id="repaso">
+      <h2>Ejercicios de Repaso</h2>
+      <form id="quizForm">
+        <ol>
+          <li>
+            ¿Dónde ocurre la fotosíntesis?<br />
+            <input type="radio" name="q1" value="a" /> a) En las raíces<br />
+            <input type="radio" name="q1" value="b" /> b) En los cloroplastos<br />
+            <input type="radio" name="q1" value="c" /> c) En las flores<br />
+          </li>
+          <li>
+            ¿Qué gas se libera durante la fotosíntesis?<br />
+            <input type="radio" name="q2" value="a" /> a) Oxígeno<br />
+            <input type="radio" name="q2" value="b" /> b) Dióxido de carbono<br />
+            <input type="radio" name="q2" value="c" /> c) Nitrógeno<br />
+          </li>
+        </ol>
+        <button type="submit">Verificar respuestas</button>
+      </form>
+      <div id="resultados"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado para estudiantes de secundaria en Puerto Rico | Proyecto educativo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
